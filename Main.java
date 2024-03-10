@@ -105,6 +105,8 @@ class ConsoleTaskManagerUI implements TaskManagerUI {
                 case 4:
                     System.out.println("Exiting...");
                     System.exit(0);
+                default:
+                    System.out.println("Invalid choice. Please enter a number between 1 and 4.");
 
             }
         }
